@@ -7,6 +7,7 @@ if __name__== '__main__':
     df_pyspark.printSchema()
     print(type(df_pyspark))
 
+
     df_pyspark.select('Player_Name').show()
     print(df_pyspark.dtypes)
     df_pyspark.describe().show()
